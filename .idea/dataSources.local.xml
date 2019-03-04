@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - sem3@localhost" uuid="200d5933-7097-4a9c-8852-2755106f0e40">
+      <database-info product="PostgreSQL" version="9.5.4" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>sem2</user-name>
+      <introspection-schemas>sem3:pg_catalog,public,sem2</introspection-schemas>
+      <resolve-scope>sem3:public,sem2</resolve-scope>
+      <unqualified-resolve-schemas>sem3:public,sem2</unqualified-resolve-schemas>
+    </data-source>
+  </component>
+</project>

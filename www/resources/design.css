@@ -1,0 +1,237 @@
+@import "reset.css";
+@import 'https://fonts.googleapis.com/css?family=Alex+Brush|Tillana|Handlee|Satisfy|Ubuntu+Condensed|Ubuntu';
+
+body {
+    background-color: white;
+    font-family: 'Ubuntu Condensed', Palatino Linotype, Book Antique, Palatino, serif;
+    font-size: 13pt;
+    max-width: 1400px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.homepage {
+    background: url(images/salad.jpg) no-repeat fixed; /* no repeat: uprepar ej bilden om skärmen är större än bilden, */
+    background-position: center;
+    background-size: cover;                         /* fixed innebär att bilden inte hänger med om man scrollar*/
+    min-height: 100%;
+}
+
+.homepage body { /* avbryta den vita bakgrunden från bodyn*/
+    background: transparent;
+}
+
+.homepageinfo {
+    background: rgba(240, 255, 255, 0.71);
+    padding: 20px;
+    font-size: 25px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-top: 50px;
+
+}
+.homepageinfolist {
+    list-style: none;
+}
+
+header {
+    background: rgba(240, 255, 255, 0.71);
+    padding: 20px;
+}
+.nav-links1 > li, .nav-links2 > li {
+    font-family: 'Ubuntu Condensed', cursive;
+    list-style: none;
+    display: inline;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.nav-links1 > li {
+    float: left;
+}
+
+.nav-links2 > li {
+    float: right;
+}
+
+.recipeinfo, .comments-header {
+    font-family: 'Ubuntu Condensed', cursive;
+    font-size: 50px;
+    /*margin-bottom: 20px;*/
+    margin-top: 20px;
+}
+
+.recipedescription {
+    font-family: 'Ubuntu Condensed', cursive;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.recipeimage {
+    max-width: 100%;
+}
+
+.comment{
+    padding: 10px;
+    font-size: 13pt;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: lightgrey;
+    /*border : 1px black solid;*/
+    border-radius: 10px;
+    max-width: 400px;
+
+}
+
+h1 {
+    font-size: 80pt;
+    font-family: 'Alex Brush', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.homepage h1 {
+    font-size: 120pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a, a:visited { /* samma färg för länkar */
+    color: #000076;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2215a5;
+}
+
+.nav-links a:hover {
+    color: #2215a5;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 70pt;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-family: 'Ubuntu Condensed', cursive;
+}
+
+h3 {
+    font-size: 16pt;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.calendarmonth{
+    text-align: center;
+    font-family: 'Alex Brush', cursive;
+    font-size: 130px;
+}
+
+table {
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: auto; /* genom att tillsätta auto, så får man så mycket marginal som möjligt*/
+    margin-right: auto;
+}
+
+table > thead > tr > td {
+    width: 150px;
+    text-align: center;
+    border: none;
+    background-color: rgba(61, 68, 68, 0.09);
+}
+
+table > tbody > tr > td {
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 30px;
+    background-color: rgba(29, 34, 44, 0.05);
+}
+
+.days > td {
+    font-size: 17pt;
+}
+
+@media (max-device-width: 650px) {
+    .days > td {
+        font-size: 25pt;
+    }
+}
+
+table > tbody > tr > td > a {
+    display: block; /* skapar ett nytt block, t.ex bild i en cell*/
+    clear: both; /* gör så att bilden får en egen rad*/
+    text-align: center; /* sätter den i centrum */
+}
+
+tr { /*rows*/
+    color: black;
+    background-color: white;
+    height: 50px;
+
+}
+
+td { /* daynumbers*/
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+}
+
+.calendar-number {
+    float: left;
+}
+
+.days > td {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.cell-image {
+    width: 100px;
+    height: auto;
+}
+
+ol > li {
+    list-style: decimal inside;
+}
+
+ul > li {
+    list-style: disc inside;
+}
+
+.registersquare, .loginsquare, .outlogsquare {
+    font-size: 20pt;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgrey;
+    max-width: 400px;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+
+
+}
+
+.errormessage {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.textarea {
+    -ms-scrollbar-base-color: orange;
+}

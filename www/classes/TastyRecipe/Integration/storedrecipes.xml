@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- xmlns, definerar cookbooks namnrymd, vart alla taggar kommer ifrån-->
+<!-- xmlns:xsi, allt som börjar på xsi: som kommer från XMLSchema-instance, -->
+<!-- ett attribut i xsi -->
+<cookbook
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.mycookbook-android.com"
+        xsi:schemaLocation="http://www.mycookbook-android.com http://www.mycookbook-android.com/files/mycookbook.xsd">
+    <recipe>
+        <title>Meatballs</title>
+        <totaltime>
+            1 hour
+        </totaltime>
+        <imagepath>
+            meatballs.jpg
+        </imagepath>
+        <imageurl>
+            https://www.flickr.com/photos/dkdlv38/6784720861
+        </imageurl>
+        <quantity>
+            15 servings
+        </quantity>
+        <ingredient>
+            <li>1 eggs</li>
+            <li>1 lb of minced meat (preferably beef mixed with pork)</li>
+            <li>1/4 cup cream</li>
+            <li>1/2 cup milk</li>
+            <li>1/2 teaspoon sugar</li>
+            <li>1 teaspoon salt</li>
+            <li>1/2 teaspoons of white pepper</li>
+            <li>1 small chopped onion</li>
+            <li>1/4 breadcrumbs for texture</li>
+        </ingredient>
+        <recipetext>
+            <li>
+                Mix the milk, cream and breadcrumbs. Let it rise for approximately 10 mins
+            </li>
+            <li>
+                Mix the minced meat with salt, pepper and sugar.
+            </li>
+            <li>
+                Rinse your hands with cold water and form with the help of your palm balls.
+            </li>
+            <li>
+                Fry the formed meatballs in your already greased pan. Fry until a crisp and brown surface.
+            </li>
+            <li>
+                Serve together with hot mashed potatoes, yummy creamy sauce and a lovely lingonberryjam.
+            </li>
+
+        </recipetext>
+        <nutrition>
+            <li>Energy: 806 kJ / 193 kcal</li>
+            <li>Protein: 14,1 g</li>
+            <li>Carbs: 2,4 g</li>
+            <li>Fat: 14,2g</li>
+        </nutrition>
+        <description>
+            Forget about the IKEA meatballs, these are the real deal.
+        </description>
+
+
+    </recipe>
+    <recipe>
+        <title>Pancakes</title>
+        <totaltime>
+            20 mins
+        </totaltime>
+        <imagepath>
+            pancakes.jpg
+        </imagepath>
+        <imageurl>
+            https://www.flickr.com/photos/jeffreyww/5502814263
+        </imageurl>
+        <quantity>
+            8 servings
+        </quantity>
+        <ingredient>
+            <li>1 egg</li>
+            <li>1 1/2 cups all-purpose flour</li>
+            <li>3 1/2 teaspoons baking powder</li>
+            <li>1 tablespoon white sugar</li>
+            <li>1/2 teaspoon salt</li>
+            <li>1 1/4 cupsmilk</li>
+            <li>3 tablespoons butter, melted</li>
+        </ingredient>
+        <recipetext>
+            <li>
+                In a large bowl, sift together the flour, baking powder, salt and sugar.
+                Pour in the milk, egg and melted butter; mix until smooth.
+            </li>
+            <li>
+                Heat a lightly oiled frying pan over medium high heat.
+            </li>
+            <li>
+                Pour or scoop the batter onto the pan, using approximately 1/4 cup for each pancake.
+            </li>
+            <li>
+                Brown on both sides and serve hot.
+            </li>
+        </recipetext>
+        <nutrition>
+            <li>Energy: 806 kJ / 193 kcal</li>
+            <li>Protein: 14,1 g</li>
+            <li>Carbs: 2,4 g</li>
+            <li>Fat: 14,2g</li>
+        </nutrition>
+        <description>
+            Impress someone with these tender, buttery and light pancakes.
+        </description>
+    </recipe>
+</cookbook>
